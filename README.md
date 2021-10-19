@@ -29,3 +29,7 @@ Image 5: ![imgs/PredResult1.png](imgs/PredResult1.png)
 Image 6: ![imgs/PredResult2.png](imgs/PredResult2.png)
 
 ## Conclusion:
+Distracted drivers can be spotted by CNN model. The model prediction was pretty good in Training (0.991) as well as validation (0.990)
+
+### Future imporvement
+This ML model can be implemented in real-time simulation where as the camere is placed in the car. 
