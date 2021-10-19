@@ -18,7 +18,7 @@ Dataset is available from  https://www.kaggle.com/c/state-farm-distracted-driver
 Image 1: ![imgs/driver_data_exmples.png](imgs/driver_data_exmples.png)
 
 ## Results:
-Image 2: ![imgs/confusion_matrix.png](imgs/confusion_matrix.png)
+Image 2: ![imgs/Confusion_matrix.png](imgs/Confusion_matrix.png)
 
 Image 3: ![imgs/model_diagram.png](imgs/model_diagram.png)
 
