@@ -18,15 +18,25 @@ Dataset is available from  https://www.kaggle.com/c/state-farm-distracted-driver
 Image 1: ![imgs/driver_data_exmples.png](imgs/driver_data_exmples.png)
 
 ## Results:
-Image 2: ![imgs/Confusion_matrix.png](imgs/Confusion_matrix.png)
 
-Image 3: ![imgs/model_diagram.png](imgs/model_diagram.png)
+Image 2: ![imgs/model_diagram.png](imgs/model_diagram.png)
 
-Image 4: ![imgs/Train_val_epocs.png](imgs/Train_val_epocs.png)
+We  used 20 epochs and early stopping monitoring on validation loss and model check point saving the model weights. 
+
+Data augmentation on the datasets was also implmented but it did not help the prediction.
+
+Overfitting seems small form the figure Image 3.
+
+Image 3: ![imgs/Train_val_epocs.png](imgs/Train_val_epocs.png)
+
+Confusion matrix were provided to evaluate the model preformance
+Image 4: ![imgs/Confusion_matrix.png](imgs/Confusion_matrix.png)
 
 Image 5: ![imgs/PredResult1.png](imgs/PredResult1.png)
 
 Image 6: ![imgs/PredResult2.png](imgs/PredResult2.png)
+
+It is interesting that darker skin give a wrong prediction in this excerise, but overall precition was very good.
 
 ## Conclusion:
 Distracted drivers can be spotted by CNN model. The model prediction was pretty good in Training (0.991) as well as validation (0.990)
